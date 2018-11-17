@@ -32,6 +32,10 @@ div{
   article{
     max-width: 70%;
   }
+  p{
+    font-size: 16px;
+    max-width: 70%;
+  }
 img{
   max-width: 70%;
 }
