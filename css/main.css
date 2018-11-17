@@ -1,0 +1,42 @@
+article{
+  width:36em;
+  margin:0 auto;
+  max-width: 100%;
+  font-size: 18px;
+}
+
+/*used https://blog.prototypr.io/how-to-set-perfect-line-lengths-for-the-web-528f08f8b344 for reference for the above article tag */
+
+img {
+    display: block;
+    position: relative;
+    padding:1em;
+}
+body {
+    font-family:"K2D",'Helvetica','Arial', sans-serif;
+    background: #5598b2;
+    color: #333;
+    margin: 0;
+  }
+
+h1{
+  padding:1em;
+}
+p{
+  padding:1em;
+}
+div{
+  padding:1em;
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  article{
+    max-width: 70%;
+  }
+img{
+  max-width: 70%;
+}
+audio{
+  max-width: 70%;
+}
+}
+/*used https://gist.github.com/gokulkrishh/242e68d1ee94ad05f488 as reference for the media query*/
